@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Rumadana</string>
+    <string name="title_invest">INVEST</string>
+    <string name="title_balance">BALANCE</string>
+    <string name="title_borrow">BORROW</string>
+    <string name="title_support">SUPPORT</string>
+    <string name="title_profile">PROFILE</string>
+    <string name="hello_blank_fragment">Hello World</string>
+    <string name="investment_tab_invest_fragment">Investment</string>
+    <string name="portfolio_tab_invest_fragment">Portfolio</string>
+    <string name="summary_tab_invest_fragment">Summary</string>
+    <string name="loan_tab_borrow_fragment">Loan</string>
+    <string name="portfolio_tab_borrow_fragment">Portfolio</string>
+    <string name="summary_tab_borrow_fragment">Summary</string>
+    <string name="amount">IDR Amount</string>
+    <string name="month">Max. 300 mo.</string>
+    <string name="percentage">%Rate</string>
+
+    <string name="rating_A1">A1</string>
+    <string name="rating_A2">A2</string>
+    <string name="rating_A3">A3</string>
+    <string name="rating_A4">A4</string>
+    <string name="rating_B1">B1</string>
+    <string name="rating_B2">B2</string>
+    <string name="rating_B3">B3</string>
+    <string name="rating_B4">B4</string>
+    <string name="rating_C1">C1</string>
+    <string name="rating_C2">C2</string>
+    <string name="rating_C3">C3</string>
+    <string name="rating_C4">C4</string>
+    <string name="rating_D1">D1</string>
+    <string name="rating_D2">D2</string>
+    <string name="rating_D3">D3</string>
+    <string name="rating_D4">D4</string>
+    <string name="rating_E1">E1</string>
+    <string name="rating_E2">E2</string>
+    <string name="rating_E3">E3</string>
+    <string name="rating_E4">E4</string>
+    <string name="rating_F1">F1</string>
+    <string name="rating_F2">F2</string>
+    <string name="rating_F3">F3</string>
+    <string name="rating_F4">F4</string>
+    <string name="rating_G1">G1</string>
+    <string name="rating_G2">G2</string>
+    <string name="rating_G3">G3</string>
+    <string name="rating_G4">G4</string>
+
+    <string name="AssessmentConfirmation">This credit assessment comprises three assessment parts as follows:\n\n
+        1. Loan assessment, 11 queries;\n
+        2. Repayment assessment, 12 queries;\n
+        3. Property assessment, 33 queries.\n\n
+        Please click next to continue.</string>
+
+    <string name="LoanAssessmentConfirmation">You are not pass loan assessment part.\n\n
+        Please click review to recheck your answers.</string>
+
+    <string name="RepaymentAssessmentConfirmation">You are not pass repayment assessment part.\n\n
+        Please click review to recheck your answers.</string>
+
+    <string name="PropertyAssessmentConfirmation">You are not pass property assessment part.\n\n
+        Please click review to recheck your answers.</string>
+
+    <string name="FinalAssessmentConfirmation">Congratulations, you have passed credit assessment. Your loan is being processed by our officer.\n\n
+        Please click next to continue.</string>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_expected_rate_options">
+        <item>@string/rating_A1</item>
+        <item>@string/rating_A2</item>
+        <item>@string/rating_A3</item>
+        <item>@string/rating_A4</item>
+        <item>@string/rating_B1</item>
+        <item>@string/rating_B2</item>
+        <item>@string/rating_B3</item>
+        <item>@string/rating_B4</item>
+        <item>@string/rating_C1</item>
+        <item>@string/rating_C2</item>
+        <item>@string/rating_C3</item>
+        <item>@string/rating_C4</item>
+        <item>@string/rating_D1</item>
+        <item>@string/rating_D2</item>
+        <item>@string/rating_D3</item>
+        <item>@string/rating_D4</item>
+        <item>@string/rating_E1</item>
+        <item>@string/rating_E2</item>
+        <item>@string/rating_E3</item>
+        <item>@string/rating_E4</item>
+        <item>@string/rating_F1</item>
+        <item>@string/rating_F2</item>
+        <item>@string/rating_F3</item>
+        <item>@string/rating_F4</item>
+        <item>@string/rating_G1</item>
+        <item>@string/rating_G2</item>
+        <item>@string/rating_G3</item>
+        <item>@string/rating_G4</item>
+    </string-array>
+</resources>

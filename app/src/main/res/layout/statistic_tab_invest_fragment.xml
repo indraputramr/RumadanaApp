@@ -1,0 +1,1174 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="8dp"
+        android:background="@color/defaultColor"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="@drawable/the_next_payment_news">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="General Summary"
+                    android:textSize="20dp"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="02/12/2017"
+                    android:gravity="end"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:paddingRight="8dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:textAlignment="textStart"
+                        android:text="Portfolio's Value (IDR)"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="8dp"
+                        android:text="7.278.100.000"
+                        android:textColor="#ffffff"
+                        android:gravity="start"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:paddingLeft="8dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:textAlignment="textStart"
+                        android:text="Initial Investment (IDR)"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="8dp"
+                        android:text="5.330.287.640"
+                        android:textColor="#ffffff"
+                        android:gravity="start"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="8dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:textAlignment="textStart"
+                        android:paddingTop="8dp"
+                        android:text="Net A.R."
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="4dp"
+                        android:text="36,54%"
+                        android:textColor="#ffffff"
+                        android:gravity="start"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:textAlignment="textStart"
+                        android:paddingTop="8dp"
+                        android:text="W.A.Rate"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="4dp"
+                        android:text="8,93%"
+                        android:textColor="#ffffff"
+                        android:gravity="start"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:paddingLeft="8dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:textAlignment="textStart"
+                        android:paddingTop="8dp"
+                        android:text="Non P.I."
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="4dp"
+                        android:text="0,19%"
+                        android:textColor="#ffffff"
+                        android:gravity="start"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:paddingLeft="8dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:textAlignment="textStart"
+                        android:paddingTop="8dp"
+                        android:text="Port."
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="4dp"
+                        android:text="544"
+                        android:textColor="#ffffff"
+                        android:gravity="start"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:background="@drawable/bar_summary_borrow"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Delinquency Based Portfolio"
+                    android:textColor="@color/defaultColor"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="02/12/2017"
+                    android:gravity="end"
+                    android:textColor="@color/defaultColor"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:id="@+id/tableRow"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="4dp">
+                    <TextView
+                        android:text="Status"
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        android:gravity="start" />
+                    <TextView
+                        android:text="Port."
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        android:textAlignment="center" />
+                    <TextView
+                        android:text="%"
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        android:textAlignment="center" />
+                    <TextView
+                        android:text="Value ('000)"
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        android:textAlignment="center" />
+                    <TextView
+                        android:text="%"
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        android:textAlignment="center" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp">
+                    <TextView
+                        android:text="Current"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:gravity="start" />
+                    <TextView
+                        android:text="36"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="5,52"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="200.000"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="2,07"
+                        android:gravity="end"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp">
+                    <TextView
+                        android:text="1-30 days"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:gravity="start"/>
+                    <TextView
+                        android:text="28"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="4,30"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="6.540.000"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="67,68"
+                        android:gravity="end"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp">
+                    <TextView
+                        android:text="30-60days"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:gravity="start"/>
+                    <TextView
+                        android:text="104"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="15,97"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="37.500"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="0,39"
+                        android:gravity="end"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp">
+                    <TextView
+                        android:text="60-90days"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:gravity="start" />
+                    <TextView
+                        android:text="66"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="10,14"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="100.600"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="1,04"
+                        android:gravity="end"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp">
+                    <TextView
+                        android:text="Default"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:gravity="start" />
+                    <TextView
+                        android:text="310"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="47,62"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="400.000"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="4,14"
+                        android:gravity="end"/>
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:background="@drawable/bar_summary_borrow"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Rating Based Portfolio"
+                    android:textColor="@color/defaultColor"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="02/12/2017"
+                    android:gravity="end"
+                    android:textColor="@color/defaultColor"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="4dp">
+                    <TextView
+                        android:text="Rating"
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        android:textAlignment="center" />
+                    <TextView
+                        android:text="Port."
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        android:textAlignment="center" />
+                    <TextView
+                        android:text="%"
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        android:textAlignment="center" />
+                    <TextView
+                        android:text="Value ('000)"
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        android:textAlignment="center" />
+                    <TextView
+                        android:text="%"
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        android:textAlignment="center" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp">
+                    <TextView
+                        android:text="A"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:background="@drawable/a_rating"/>
+                    <TextView
+                        android:text="36"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="5,52"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="200.000"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="2,07"
+                        android:gravity="end"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp">
+                    <TextView
+                        android:text="B"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:background="@drawable/b_rating"/>
+                    <TextView
+                        android:text="28"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="4,30"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="6.540.000"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="67,68"
+                        android:gravity="end"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp">
+                    <TextView
+                        android:text="C"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:background="@drawable/c_rating"/>
+                    <TextView
+                        android:text="104"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="15,97"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="37.500"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="0,39"
+                        android:gravity="end"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp">
+                    <TextView
+                        android:text="D"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:background="@drawable/d_rating"/>
+                    <TextView
+                        android:text="66"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="10,14"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="100.600"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="1,04"
+                        android:gravity="end"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp">
+                    <TextView
+                        android:text="E"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:background="@drawable/e_rating"/>
+                    <TextView
+                        android:text="310"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="47,62"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="400.000"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="4,14"
+                        android:gravity="end"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp">
+                    <TextView
+                        android:text="F"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:background="@drawable/f_rating"/>
+                    <TextView
+                        android:text="19"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="2,92"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="2.340.000"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="24,22"
+                        android:gravity="end"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="8dp">
+                    <TextView
+                        android:text="G"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:background="@drawable/g_rating" />
+                    <TextView
+                        android:text="88"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="13,51"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="45.000"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="0,46"
+                        android:gravity="end"/>
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:background="@drawable/bar_summary_borrow"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Tenor Based Portfolio"
+                    android:textColor="@color/defaultColor"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="02/12/2017"
+                    android:gravity="end"
+                    android:textColor="@color/defaultColor"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="4dp">
+                    <TextView
+                        android:text="Tenor"
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        android:textAlignment="center" />
+                    <TextView
+                        android:text="Port."
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        android:textAlignment="center" />
+                    <TextView
+                        android:text="%"
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        android:textAlignment="center" />
+                    <TextView
+                        android:text="Value ('000)"
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        android:textAlignment="center" />
+                    <TextView
+                        android:text="%"
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        android:textAlignment="center" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp">
+                    <TextView
+                        android:text="0-1 yr"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:gravity="end" />
+                    <TextView
+                        android:text="36"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="5,52"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="200.000"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="2,07"
+                        android:gravity="end"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp">
+                    <TextView
+                        android:text="1-3 yr"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:gravity="end" />
+                    <TextView
+                        android:text="28"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="4,30"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="6.540.000"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="67,68"
+                        android:gravity="end"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp">
+                    <TextView
+                        android:text="3-6 yr"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:gravity="end" />
+                    <TextView
+                        android:text="104"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="15,97"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="37.500"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="0,39"
+                        android:gravity="end"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp">
+                    <TextView
+                        android:text="6-10 yr"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:gravity="end" />
+                    <TextView
+                        android:text="66"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="10,14"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="100.600"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="1,04"
+                        android:gravity="end"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp">
+                    <TextView
+                        android:text="10-15 yr"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:gravity="end" />
+                    <TextView
+                        android:text="310"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="47,62"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="400.000"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="4,14"
+                        android:gravity="end"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp">
+                    <TextView
+                        android:text="15-21 yr"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="19"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="2,92"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="2.340.000"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="24,22"
+                        android:gravity="end"/>
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:background="@drawable/bar_summary_borrow"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Location Based Portfolio"
+                    android:textColor="@color/defaultColor"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="02/12/2017"
+                    android:gravity="end"
+                    android:textColor="@color/defaultColor"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="4dp">
+                    <TextView
+                        android:text="Location"
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        android:gravity="start" />
+                    <TextView
+                        android:text="Port."
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        android:textAlignment="center" />
+                    <TextView
+                        android:text="%"
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        android:textAlignment="center" />
+                    <TextView
+                        android:text="Value ('000)"
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        android:textAlignment="center" />
+                    <TextView
+                        android:text="%"
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        android:textAlignment="center" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp">
+                    <TextView
+                        android:text="Ciputat"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:gravity="start" />
+                    <TextView
+                        android:text="36"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="5,52"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="200.000"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="2,07"
+                        android:gravity="end"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp">
+                    <TextView
+                        android:text="Ciputat Timur"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:gravity="start" />
+                    <TextView
+                        android:text="28"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="4,30"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="6.540.000"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="67,68"
+                        android:gravity="end"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp">
+                    <TextView
+                        android:text="Pamulang"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:gravity="start" />
+                    <TextView
+                        android:text="104"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="15,97"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="37.500"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="0,39"
+                        android:gravity="end"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp">
+                    <TextView
+                        android:text="Pondok Aren"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:gravity="start" />
+                    <TextView
+                        android:text="66"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="10,14"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="100.600"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="1,04"
+                        android:gravity="end"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp">
+                    <TextView
+                        android:text="Serpong"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:gravity="start" />
+                    <TextView
+                        android:text="310"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="47,62"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="400.000"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="4,14"
+                        android:gravity="end"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp">
+                    <TextView
+                        android:text="Serpong Utara"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:gravity="start"/>
+                    <TextView
+                        android:text="19"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="2,92"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="2.340.000"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="24,22"
+                        android:gravity="end"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp">
+                    <TextView
+                        android:text="Setu"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:gravity="start"/>
+                    <TextView
+                        android:text="19"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="2,92"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="2.340.000"
+                        android:gravity="end"/>
+                    <TextView
+                        android:text="24,22"
+                        android:gravity="end"/>
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

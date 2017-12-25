@@ -1,0 +1,212 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.indraputramr.rumadanaapp.ProfileActivity.ProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#002f6c"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/user_profile_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/user_profile_image_circle"
+            android:paddingTop="36dp"
+            android:paddingBottom="16dp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/user_profile_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:text="Hi Indra, Good Morning"/>
+
+        <TextView
+            android:id="@+id/user_profile_quotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textColor="#ffffff"
+            android:textStyle="italic"
+            android:paddingTop="8dp"
+            android:paddingBottom="16dp"
+            android:text="All is well"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="4dp"
+            android:paddingTop="24dp">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                app:srcCompat="@drawable/ic_account_box_black_48dp" />
+
+            <TextView
+                android:id="@+id/user_profile_account"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textStyle="italic"
+                android:textSize="16sp"
+                android:textColor="#002f6c"
+                android:text="ACCOUNTS" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                app:srcCompat="@drawable/ic_attach_money_black_48dp" />
+
+            <TextView
+                android:id="@+id/user_profile_balance"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textStyle="italic"
+                android:textSize="16sp"
+                android:textColor="#002f6c"
+                android:text="BALANCE" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                app:srcCompat="@drawable/ic_local_post_office_black_48dp" />
+
+            <TextView
+                android:id="@+id/user_profile_notification"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textStyle="italic"
+                android:textSize="16sp"
+                android:textColor="#002f6c"
+                android:text="NOTIFICATION" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                app:srcCompat="@drawable/ic_playlist_add_check_black_48dp" />
+
+            <TextView
+                android:id="@+id/user_profile_investment_strategy"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textStyle="italic"
+                android:textSize="16sp"
+                android:textColor="#002f6c"
+                android:text="INVESTMENT STRATEGY" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                app:srcCompat="@drawable/ic_settings_black_48dp" />
+
+            <TextView
+                android:id="@+id/user_profile_general_settings"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textStyle="italic"
+                android:textSize="16sp"
+                android:textColor="#002f6c"
+                android:text="GENERAL SETTINGS" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/user_profile_sign_out"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textStyle="italic"
+                android:textSize="16sp"
+                android:textColor="#002f6c"
+                android:paddingLeft="230dp"
+                android:text="Sign Out" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="60dp"
+                app:srcCompat="@drawable/ic_exit_to_app_black_48dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

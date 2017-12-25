@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/portfolio_tab_invest_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.indraputramr.rumadanaapp.BorrowActivity.LoanTabBorrowFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ListView
+        android:id="@+id/portfolio_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Portfolio Tab Invest Fragment" />
+
+</FrameLayout>
